@@ -60,11 +60,11 @@ client.on('message', message => {
 if (message.content === '*help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** 🎶 اوامر الميوزك**","** **")
-      .addField("***play :musical_note:**","**لـ تشغيل المطلوب**")
-      .addField("***stop  :musical_keyboard:**","**لـ ايقاف المطلوب**")
-      .addField("***pause :musical_score:**","**لـ ايقاف المطوب مؤقت**")
-      .addField("***resume :mute: **","**لـ تشغيل المطوب بعد التوقيف**")
+      .addField("**قريباً اوامر الزائر  **","** **")
+      .addField("***قريباً**","**قرياً**")
+      .addField("***قريباً**","**قريباً**")
+      .addField("***قريباً**","**قريباً**")
+      .addField("***قريباً **","**قريباً**")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
