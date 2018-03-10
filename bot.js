@@ -225,14 +225,6 @@ if(message.content.split(' ')[0] == '*bc') {
     }
 });
 client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('discord.gg')){
-      if(!message.member.hasPermission('ADMINISTRATOR'))
-        message.delete()
-    return message.reply(`** يمنع نشر الروابط ! **`)
-    }
-});
-client.on('message', message => {
      if (message.content === "servers") {
      let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
