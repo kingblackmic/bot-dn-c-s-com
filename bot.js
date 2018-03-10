@@ -171,7 +171,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "Desert Bot"
+          text: "DN-C-S.COM"
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -212,7 +212,7 @@ if(message.content.split(' ')[0] == '*bc') {
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
 .setDescription("معلومات عن الحــساب")
-               .setFooter(`Desert Bot.`, '')
+               .setFooter(`DN-C-S.COM.`, '')
   .setColor("#9B59B6")
   .addField("اســـم الحســاب", `${message.author.username}`)
   .addField('كود الحساب الخاص', message.author.discriminator)
