@@ -316,4 +316,15 @@ client.on('message', message => {
   console.log('[id] Send By: ' + message.author.username)
     }
 });
+  client.on("message", msg => {
+     if (msg.content.startsWith(prefix + `hug`)) {
+    let member = msg.mentions.members.first();
+    const embed = new Discord.RichEmbed()
+    embed.setFooter("!hug | MONSTER-BOT ")
+    embed.setColor(0xefb81c)
+    embed.addField("Cute!", msg.author + " just hugged " + member + "!", true)
+    embed.setThumbnail("https://i.imgur.com/IPs7xKU.gif")
+    msg.channel.send({ embed });
+  }
+})
 client.login('NDIwNTU3MjE3MjYwMTA5ODQ0.DYUXDg.PRhsvrmZx4l7PZXzD7k4Hvkk6ow');
