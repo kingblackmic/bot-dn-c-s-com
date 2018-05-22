@@ -400,5 +400,3 @@ if(hours3 > 12) {
                  message.channel.sendEmbed(Date15);
         }
     });
-
-client.login('NDMzNTc1MzI3MTk4MDg1MTIw.Da92Ew.KFNR9bmByCLDmO3iXem_5a2-9xc');
